@@ -13,14 +13,14 @@ const contacts: ContactItem[] = [
   {
     id: 'phone',
     icon: <Phone className="w-6 h-6" />,
-    label: 'Teléfono',
+    label: 'Phone',
     value: '(809) 315-3295',
     link: 'tel:+8093153295'
   },
   {
     id: 'email',
     icon: <Mail className="w-6 h-6" />,
-    label: 'Email',
+    label: 'E-mail',
     value: 'jdom0777cruz@gmail.com',
     link: 'mailto:jdom0777cruz@gmail.com'
   }
