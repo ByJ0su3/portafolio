@@ -6,10 +6,10 @@
   "homepage": "https://github.com/ByJ0su3/portafolio",
   "scripts": {
     "dev": "vite",
-    "clean": "rimraf dist || rmdir /s /q dist",
-    "build": "npm run clean && vite build",
+    "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "fix:assets": "powershell -ExecutionPolicy Bypass -File fix-assets.ps1",
+    "predeploy": "npm run build && npm run fix:assets",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -74,7 +74,6 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "4.7.0",
     "gh-pages": "^6.3.0",
-    "rimraf": "^6.1.2",
     "tailwindcss": "4.1.12",
     "vite": "6.3.5"
   },
