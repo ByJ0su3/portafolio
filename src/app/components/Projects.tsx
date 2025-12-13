@@ -58,7 +58,7 @@ const projects: Project[] = [
   {
     id: 4,
     title: 'Bus Management System',
-    description: 'A management system designed to efficiently organize routes, schedules, and operational data.',
+    description: 'A management system designed to efficiently organize routes, schedules, and operational data, and more...',
     thumbnail: 'src/public/bus1.jpg',
     images: [
       'src/public/bus1.jpg',

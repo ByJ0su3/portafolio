@@ -1,0 +1,6 @@
+# En la raíz de tu proyecto:
+echo "" > public/.nojekyll
+
+# Si no tienes carpeta public, créala:
+mkdir -p public
+echo "" > public/.nojekyll

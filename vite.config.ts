@@ -1,28 +1,18 @@
 import { defineConfig } from 'vite'
-import path from 'path'
-import { fileURLToPath } from 'url'
-import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
-
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(),
-  ],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-  },
+  plugins: [react()],
   base: '/portafolio/',
   build: {
+    outDir: 'dist',
+    // AÑADE ESTO PARA WINDOWS:
+    emptyOutDir: false,  // ← IMPORTANTE: No vaciar la carpeta automáticamente
     rollupOptions: {
       output: {
-        assetFileNames: 'assets/[name]-[hash][extname]',
-        chunkFileNames: 'assets/[name]-[hash].js',
-        entryFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name].[ext]',
+        entryFileNames: 'assets/[name].js',
+        chunkFileNames: 'assets/[name].js',
       }
     }
   }
