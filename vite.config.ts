@@ -3,13 +3,12 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/portafolio/',
+  base: '/Portafolio/',  // Esto hace que Vite genere rutas correctas
   build: {
     outDir: 'dist',
-    // AÑADE ESTO PARA WINDOWS:
-    emptyOutDir: false,  // ← IMPORTANTE: No vaciar la carpeta automáticamente
     rollupOptions: {
       output: {
+        // Esto genera nombres SIN hash
         assetFileNames: 'assets/[name].[ext]',
         entryFileNames: 'assets/[name].js',
         chunkFileNames: 'assets/[name].js',
