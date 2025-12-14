@@ -23,7 +23,7 @@ export function Hero() {
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-purple-400 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-300" />
             <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-purple-500/50">
               <ImageWithFallback
-                src="src/public/me 4k.png"
+                src="/me.png"
                 alt="Foto de perfil"
                 className="w-full h-full object-cover"
               />

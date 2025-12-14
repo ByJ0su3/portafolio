@@ -11,7 +11,7 @@ export function Footer() {
       
       <div className="relative z-10 max-w-7xl mx-auto">
         <p className="text-center text-gray-500">
-          © {currentYear} - Diseñado por <span className="text-purple-400">Josue Domínguez</span>
+          © {currentYear} - Designed by <span className="text-purple-400">Josue Domínguez</span>
         </p>
       </div>
     </footer>
