@@ -21,8 +21,8 @@ const contacts: ContactItem[] = [
     id: 'email',
     icon: <Mail className="w-6 h-6" />,
     label: 'E-mail',
-    value: 'jdom0777cruz@gmail.com',
-    link: 'mailto:jdom0777cruz@gmail.com'
+    value: 'jdom0777cruz@hotmail.com',
+    link: 'mailto:jdom0777cruz@hotmail.com'
   }
 ];
 
