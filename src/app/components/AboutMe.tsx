@@ -30,12 +30,7 @@ const itemVariants = {
 export function AboutMe() {
   return (
     <section id="about" className="relative py-28 px-6 overflow-hidden">
-      {/* Unified background */}
-      <div className="absolute inset-0 bg-[#030712]" />
 
-      {/* Ambient glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-purple-600/10 rounded-full blur-[100px]" />
-      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-purple-500/5 rounded-full blur-[80px]" />
 
       <motion.div
         className="relative z-10 max-w-6xl mx-auto"
