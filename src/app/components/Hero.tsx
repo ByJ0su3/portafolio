@@ -152,6 +152,7 @@ export function Hero() {
             href={getResumeHref(lang)}
             download
             className="group inline-flex items-center gap-2 px-8 py-3.5 border border-purple-500/30 text-purple-300 rounded-xl font-medium transition-all duration-300 hover:bg-purple-500/10 hover:border-purple-400/50 hover:text-purple-200 hover:scale-105 active:scale-[1.02]"
+            aria-label={t.downloadResume}
           >
             <Download className="w-5 h-5" />
             {t.downloadResume}

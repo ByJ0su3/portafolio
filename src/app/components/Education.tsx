@@ -23,7 +23,7 @@ const educationList: Education[] = [
       'Comprehensive program covering software development, programming fundamentals, web technologies, database management, and system design.',
     icon: GraduationCap,
     tags: ['Software Development', 'Web Technologies', 'Databases'],
-    certificate: 'images/certificates/itla.jpg',
+    certificate: 'images/certificates/certificate_itla.jpg',
   },
   {
     degree: 'Full Stack Web Development',
@@ -34,7 +34,7 @@ const educationList: Education[] = [
       'Professional certification in Full Stack development covering frontend and backend technologies, API development, and modern web frameworks.',
     icon: Award,
     tags: ['Full Stack', 'Frontend', 'Backend', 'APIs'],
-    certificate: 'images/certificates/infotep.jpg',
+    certificate: 'images/certificates/certificate_infotep.jpg',
   },
 ];
 
